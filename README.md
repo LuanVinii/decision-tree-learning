@@ -1,11 +1,15 @@
-# Análise de Atributos com Entropia e Ganho de Informação
-Este projeto implementa do zero funções para cálculo de entropia e ganho de informação com o objetivo de identificar o melhor atributo para divisão em um conjunto de dados. O exemplo é baseado em dados fictícios de clientes e sua decisão de compra.
+# Árvore de Decisão com Entropia e Ganho de Informação
+Este projeto implementa do zero uma árvore de decisão simples, usando entropia e ganho de informação para escolher o melhor atributo de divisão. Foi usado um conjunto fictício de dados de clientes.
 
-## O que foi feito
-Cálculo da Entropia: Função que calcula a incerteza da distribuição dos valores da classe.
+## Funcionalidades
+Entropia: mede a incerteza da classe.
 
-Cálculo do Ganho de Informação: Função que calcula o ganho ao dividir os dados por um atributo específico.
+Ganho de Informação: calcula o quanto cada atributo reduz a incerteza.
 
-Escolha do Melhor Atributo: Função que avalia todos os atributos e retorna aquele com maior ganho de informação.
+Melhor Atributo: escolhe o atributo com maior ganho.
 
-Teste com dados de exemplo: Dados com variáveis como Gênero, Idade, Escolaridade, Estado Civil, Renda, Forma de Pagamento e se comprou ou não.
+Árvore Recursiva: constrói a árvore de decisão até atingir a pureza ou não restarem atributos.
+
+Visualização: imprime a árvore em estrutura hierárquica no terminal.
+
+Pré-processamento: converte idade e renda em faixas para facilitar as divisões.
